@@ -1,0 +1,143 @@
+body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertically center */
+  align-items: center;      /* horizontally center */
+  text-align: center;
+  background: linear-gradient(270deg, #2e2e2e, #4b3b2b, #2e2e2e);
+  background-size: 600% 600%;
+  animation: gradientShift 20s ease infinite;
+  color: #ddd; /* light text for dark bg */
+}
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  color: #ffffff;
+  border: 3px solid #d2b48c; /* slightly thicker border */
+  padding: 1rem 2rem;         /* more padding for bigger look */
+  border-radius: 12px;
+  background-color: #2e2e2e;
+  box-shadow: 0 0 12px #d2b48caa; /* stronger glow */
+  margin-bottom: 0.5rem;
+  font-size: 4rem;            /* bigger font size */
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+p.tagline {
+  font-size: 2rem;            /* bigger tagline */
+  color: #d2b48c;
+  font-style: italic;
+  margin-top: 0;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+
+input[type="file"], button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 16px;
+  background-color: #1f1f1f; /* dark input/button background */
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+#searchInput {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#resultsContainer {
+  margin-top: 2rem;
+}
+
+
+#issuesTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  color: #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 2rem;
+  box-shadow: 0 0 15px #d2b48c44;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#issuesTable thead {
+  background-color: #333;
+}
+
+#issuesTable th, #issuesTable td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #444;
+  text-align: left;
+}
+
+#issuesTable th {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #d2b48c;
+}
+
+#issuesTable tbody tr:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+#issuesTable a {
+  color: #d2b48c;
+  text-decoration: none;
+}
+
+#issuesTable a:hover {
+  text-decoration: underline;
+}
+
+/* Severity colors */
+.warning {
+  color: #ffa500; /* orange */
+  font-weight: bold;
+}
+
+.error {
+  color: #ff4c4c; /* red */
+  font-weight: bold;
+}
+
+.info {
+  color: #6495ed; /* cornflower blue */
+}
+
