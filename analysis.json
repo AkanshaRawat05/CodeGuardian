@@ -1,0 +1,46 @@
+{
+  "issues":[
+    {
+      "severity":"Warning",
+      "line":5,
+      "message":"Variable 'a' used before initialization.",
+      "reference":"https:\/\/www.geeksforgeeks.org\/uninitialized-primitive-data-types-in-c-c\/"
+    },
+    {
+      "severity":"Warning",
+      "line":8,
+      "message":"Variable 'x' used without declaration.",
+      "reference":"https:\/\/www.geeksforgeeks.org\/how-to-avoid-compile-error-while-defining-variables\/"
+    },
+    {
+      "severity":"Warning",
+      "line":9,
+      "message":"Variable 'c' used without declaration.",
+      "reference":"https:\/\/www.geeksforgeeks.org\/how-to-avoid-compile-error-while-defining-variables\/"
+    },
+    {
+      "severity":"Error",
+      "line":11,
+      "message":"Array index out of bounds: b[5] (size: 3)",
+      "reference":"https:\/\/www.tutorialspoint.com\/what-is-out-of-bounds-index-in-an-array-c-language"
+    },
+    {
+      "severity":"Warning",
+      "line":12,
+      "message":"Unsafe function 'gets' used .Consider using 'fgets' instead.",
+      "reference":"https:\/\/www.geeksforgeeks.org\/fgets-function-in-c\/"
+    },
+    {
+      "severity":"Error",
+      "line":14,
+      "message":"Array index out of bounds: b[5] (size: 3)",
+      "reference":"https:\/\/www.tutorialspoint.com\/what-is-out-of-bounds-index-in-an-array-c-language"
+    },
+    {
+      "severity":"Warning",
+      "line":15,
+      "message":"'a' already declared earlier at line 3.",
+      "reference":"https:\/\/www.geeksforgeeks.org\/how-to-avoid-compile-error-while-defining-variables\/"
+    }
+  ]
+}
