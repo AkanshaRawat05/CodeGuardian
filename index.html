@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MemGuard - C Code Security Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CodeGuardian</h1>
+<p class="tagline">Compile Safe, Run Safer</p>
+
+  <input type="file" id="fileInput" accept=".c">
+  <button onclick="uploadFile()">Analyze</button>
+
+  <div id="resultsContainer">
+    
+  <table id="issuesTable" style="display:none;">
+    <thead>
+      <tr>
+        <th>🔢 Line No</th>
+        <th>⚠️ Type</th>
+        <th>📝 Message</th>
+        <th>🔗 Reference Link</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+ <p id="noIssues" style="display:none;">✅ No issues found!</p>
+  <button id="downloadCsvBtn" style="display:none; margin-top: 1rem;">Download CSV</button>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
