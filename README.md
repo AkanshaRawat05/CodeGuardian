@@ -73,20 +73,6 @@ By embedding security checks in the development lifecycle, it helps developers i
 
 ---
 
-## 📁 Sample API Usage
-
-**Endpoint:** `POST /upload`  
-**Form field:** `file` (C/C++ source file)  
-**Response:** JSON report or error message
-
-Example (using `curl`):
-
-```bash
-curl -F 'file=@example.c' http://localhost:5000/upload
-```
-
----
-
 ## 📚 Tech Stack
 
 - **Frontend:** HTML, JavaScript  
