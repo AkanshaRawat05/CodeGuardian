@@ -48,8 +48,8 @@ By embedding security checks in the development lifecycle, it helps developers i
 ## 🔍 Example Output
  from the web interface:
 
-![Code Guardian UI Screenshot](frontend/WhatsApp%20Image%202025-05-26%20at%2018.59.54_c9c0a2f8.jpg)
-
+![Code Guardian UI Screenshot](frontend/output1.jpg)
+![Code Guardian UI Screenshot](frontend/output2.jpg)
 
 ## 🧪 Testing & Validation
 
