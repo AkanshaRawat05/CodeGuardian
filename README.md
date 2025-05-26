@@ -50,8 +50,8 @@ By embedding security checks in the development lifecycle, it helps developers i
 ## 🔍 Example Output
  from the web interface:
 
-![Code Guardian UI Screenshot](frontend/WhatsApp Image 2025-05-26 at 18.59.54_c9c0a2f8.jpg)
-![Code Guardian UI Screenshot](frontend/WhatsApp Image 2025-05-26 at 19.00.10_ac5a0692.jpg)
+[![Code Guardian UI Screenshot](frontend/WhatsApp Image 2025-05-26 at 18.59.54_c9c0a2f8.jpg)
+![Code Guardian UI Screenshot](frontend/WhatsApp Image 2025-05-26 at 19.00.10_ac5a0692.jpg)](https://github.com/AkanshaRawat05/CodeGuardian/commit/97127a4ff7f4397e48d025eb19c5db19cd921b75#diff-8863fd1f897abb45566b4e85dd44488abfea2ee5c508c07dc1dddac12a2ff32a)
 
 ---
 
