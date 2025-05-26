@@ -47,6 +47,14 @@ By embedding security checks in the development lifecycle, it helps developers i
 
 ---
 
+## 🔍 Example Output
+ from the web interface:
+
+![Code Guardian UI Screenshot](frontend/WhatsApp Image 2025-05-26 at 18.59.54_c9c0a2f8.jpg)
+![Code Guardian UI Screenshot](frontend/WhatsApp Image 2025-05-26 at 19.00.10_ac5a0692.jpg)
+
+---
+
 ## 🧪 Testing & Validation
 
 - Uploaded known-vulnerable files to validate detection accuracy  
